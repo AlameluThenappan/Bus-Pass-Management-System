@@ -1,8 +1,6 @@
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-
 public class BusPassDAO {
-
     public boolean addBusPass(BusPass pass) {
         boolean status = false;
         try {
