@@ -1,6 +1,5 @@
 import java.sql.Connection;
 import java.sql.DriverManager;
-
 public class DBConnection {
     public static Connection getConnection() {
         String url = "jdbc:mysql://127.0.0.1:3306/buspass?useSSL=false&serverTimezone=UTC";
